@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "version": "0.1.0",
+  "description": "root",
+  "private": true,
+  "scripts": { },
+  "engines": {
+    "node": "24.15.0"
+  },
+  "packageManager": "pnpm@10.24.0"
+}

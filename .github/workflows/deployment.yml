@@ -1,8 +1,0 @@
-on:
-  deployment_status
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps: 
-      - run: echo ${{ github.event.deployment_status.state }}
