@@ -16,5 +16,5 @@ jobs:
         with:
           cache: "pnpm"
           cache-dependency-path: "**/pnpm-lock.yaml"
-          node-version-file: service/webfrontend/.nvmrc
-      - run: make webfrontend-build
+          node-version-file: .nvmrc
+
